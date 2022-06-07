@@ -8,7 +8,7 @@ class studentDetail
      {
       string name;
       int roll;
-      string adress;
+      string address;
      }std;
     public:
     void input()
@@ -18,18 +18,18 @@ class studentDetail
     cin>>std.name;
     cout<<"Roll:"<<endl;
     cin>>std.roll;
-    cout<<"Adress:"<<endl;
-    cin>>std.adress;
+    cout<<"Address:"<<endl;
+    cin>>std.address;
     }
     void display()
     {
         cout<<"Displaying the info:"<<endl;
     cout<<"NAME\t\t";
     cout<<"ROLL\t";
-    cout<<"Adress\t"<<endl;
+    cout<<"Address\t"<<endl;
     cout<<""<<std.name;
     cout<<"\t"<<std.roll;
-    cout<<"\t"<<std.adress<<endl;
+    cout<<"\t"<<std.address<<endl;
     }
 
 
