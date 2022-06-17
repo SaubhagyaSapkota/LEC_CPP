@@ -31,11 +31,11 @@ void dislay()
 int main()
 {
 count c1;
-//for prefix
+//for prefix increment
 ++c1;
 c1.dislay();
 
-//for postfix
+//for postfix incremient
 c1++;
 c1.dislay();
 

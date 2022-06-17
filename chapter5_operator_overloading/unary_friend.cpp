@@ -21,7 +21,7 @@ void operator -(unaryFriend &u1)
 u1.a=-u1.a;
 u1.b=-u1.b;
 u1.c=-u1.c;
-//cout<<u1.a<<endl;
+cout<<u1.a<<endl;
 }
 int main()
 {
