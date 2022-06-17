@@ -1,4 +1,5 @@
-//wap to show use of friend class
+// class and objects
+//wap to show use of friend function 
 
 #include<iostream>
 using namespace std;
