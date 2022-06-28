@@ -15,7 +15,7 @@ void print()
 class derive : public base{ //derive class 
 public:
 void print(){
-    cout<<"derive fncion."<<endl;
+    cout<<"derive function."<<endl;
 }
 
 };
