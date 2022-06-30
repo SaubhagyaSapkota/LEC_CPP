@@ -58,8 +58,5 @@ int main()
 
     sph = &rec;
     sph -> area();
-
-
-
 }
  
