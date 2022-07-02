@@ -38,7 +38,7 @@ rectangle(int a, int b)
     length = a;
     height = b;
 }
-void virtual area()
+void area()
 {
     cout<<"the area of rectangle is:"<<(length*height)<<endl;
 }
