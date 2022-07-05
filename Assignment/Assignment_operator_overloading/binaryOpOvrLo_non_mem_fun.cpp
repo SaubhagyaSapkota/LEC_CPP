@@ -1,4 +1,4 @@
-// 1) overload binary operator with non member function
+//  1) overload binary operator with non member function
 
 #include <iostream>
 using namespace std;
@@ -40,4 +40,5 @@ int main()
     s3.display();
 
     return 0;
+
 }
