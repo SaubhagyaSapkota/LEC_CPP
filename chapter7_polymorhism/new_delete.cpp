@@ -22,4 +22,5 @@ cout<<"value of pointFloat"<<*pointFloat<<endl;
 delete pointInt;
 delete pointFloat;
 return 0;
+  
 }
