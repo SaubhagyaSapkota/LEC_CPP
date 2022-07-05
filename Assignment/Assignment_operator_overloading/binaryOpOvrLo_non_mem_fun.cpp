@@ -38,4 +38,6 @@ int main()
     sum s2(2, 2);
     sum s3 = s1 + s2;
     s3.display();
+
+    return 0;
 }
