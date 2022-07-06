@@ -12,7 +12,7 @@ virtual void eat();
 class dog:public animal
 {
     public:
- void move()
+void move()
 {
     cout<<"dogs runs"<<endl;
 }
