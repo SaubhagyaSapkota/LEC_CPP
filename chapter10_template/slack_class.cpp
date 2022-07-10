@@ -26,6 +26,7 @@ class stack
         return (top+1);
     }
 };
+
 int main()
 {
 cout<<"stack for integer data type"<<endl;
@@ -40,5 +41,6 @@ cout<<"numbered popped: "<<s1.pop()<<endl;
 cout<<"size of stack: "<<s1.size()<<endl;
 cout<<"numbered popped: "<<s1.pop()<<endl;
 cout<<"size of array: "<<s1.size()<<endl;
+
 return 0;
 }
