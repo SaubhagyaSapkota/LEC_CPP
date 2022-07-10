@@ -40,6 +40,7 @@ T array<T, size>::find_min(){
     }
     return min;
 }
+
 int main()
 {
     array <int,6> a1;
@@ -48,5 +49,5 @@ int main()
     cout<<"largest number is:"<<a1.find_max()<<endl;
      cout<<"smallest number is:"<<a1.find_min()<<endl;
 
-     return 0;
+    return 0;
 }
