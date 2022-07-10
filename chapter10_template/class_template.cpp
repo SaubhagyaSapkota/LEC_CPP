@@ -11,7 +11,6 @@ class Calculator{
             num1 = n1;
             num2 = n2;
         }
-
         void display_result(){
             cout<<"Numbers are: "<<num1<<"and "<<num2<<"."<<endl;
             cout<<"Addition is: "<<add()<<endl;
@@ -42,5 +41,6 @@ int main(){
     intCalc.display_result();
     cout<<"Float results: "<<endl;
     floatcalc.display_result();
+
     return 0;
 }
