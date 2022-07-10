@@ -1,4 +1,3 @@
-
 #include<iostream>
 using namespace std;
 
@@ -41,6 +40,5 @@ int main(){
     intCalc.display_result();
     cout<<"Float results: "<<endl;
     floatcalc.display_result();
-
     return 0;
 }
