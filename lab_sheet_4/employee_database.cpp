@@ -3,6 +3,7 @@ using namespace std;
 
 // Here staff is a base class of an institution,
 //  all employees have their unique code and name
+
 class staff
 {
 protected:
