@@ -5,7 +5,7 @@ int main()
 {
     fstream file;
 
-    file.open("createfile.txt",ios::out);
+    file.open("sabhagya.txt",ios::out);
     if (!file)
     {
         cout<<"error in creating file."<<endl;
@@ -13,4 +13,5 @@ int main()
 cout<<"file created successfully";
 file.close();
 return 0;
+
 }
