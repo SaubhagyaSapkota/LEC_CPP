@@ -7,9 +7,8 @@ class student{
         student(){
             age=25;
         }
-
-        friend istream& operator >>(istream& input, student obj);
-        friend ostream& operator <<(ostream& output, student obj);
+    friend istream& operator >>(istream& input, student obj);
+    friend ostream& operator <<(ostream& output, student obj);
 };
 
 //cin is object of istream so returning reference of istream
@@ -26,7 +25,6 @@ ostream& operator <<(ostream& output, student obj){
     output<<obj.age;
     return output;
 }
-
 int main(){
     student s;
     cout<<s;
