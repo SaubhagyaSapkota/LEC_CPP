@@ -4,7 +4,6 @@ using namespace std;
 const int MAX=20;
 char str1[MAX];
 char str2[MAX];
-
 int main()
 {
     cout<<"Enter a string terminated by newline:"<<endl;
