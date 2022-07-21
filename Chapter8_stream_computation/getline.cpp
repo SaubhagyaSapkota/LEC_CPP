@@ -14,6 +14,5 @@ int main()
     cout<<"string Entered are :"<<endl;
     cout<<"string 1 :"<<str1<<endl;
     cout<<"string 2 :"<<str2<<endl;
-
     return 0;
 }
