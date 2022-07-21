@@ -7,7 +7,6 @@ void IOS_width()
     cout<<"imlementing ios::width\n";
 
     char c = 'A';
-
     cout.width(5);
     cout<<c<<"\n";
 
@@ -17,7 +16,6 @@ void IOS_width()
     cout<<"\n-------------------------------";
 
 }
-
 void IOS_precision()
 {
     cout<<"\n----------------------------\n";
@@ -45,7 +43,6 @@ void IOS_fill()
     cout.width(5);
     cout<<1;
     cout<<"\n-------------------------------\n";
-
 }
 int main()
 {
