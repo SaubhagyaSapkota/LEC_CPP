@@ -5,7 +5,6 @@ int main()
 {
     int i;
     char c='c';
-
    // float f=3.14f;
     //i=f;
     i=c;
