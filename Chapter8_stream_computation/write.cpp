@@ -9,7 +9,6 @@ int main()
     {
         cout.write(str,i);
         cout<<endl;
-
     }
     return 0;
 }
