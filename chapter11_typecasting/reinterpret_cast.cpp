@@ -12,7 +12,7 @@ int main()
     int *pivar;
     double *pdvar;
     void *pvoid;
-
+    
     pivar =reinterpret_cast<int *>(&dvar);
     pivar =reinterpret_cast<int *>(&ivar);
 }
